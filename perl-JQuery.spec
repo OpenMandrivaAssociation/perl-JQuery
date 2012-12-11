@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    %mkrel 2
 
 Summary:    JQuery Interface
 License:    GPL+ or Artistic
@@ -64,3 +64,14 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Sat Mar 27 2010 Jérôme Quelin <jquelin@mandriva.org> 1.60.0-2mdv2010.1
++ Revision: 528110
+- rebuild
+- import perl-JQuery
+
+
+* Fri Mar 26 2010 cpan2dist 1.06-1mdv
+- initial mdv release, generated with cpan2dist
